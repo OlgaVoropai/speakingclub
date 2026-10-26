@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#FDF9F3" stroke="#E8DCCE" stroke-width="8"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#D95328" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="50%" y="220" font-family="Manrope, sans-serif" font-size="36" font-weight="700" fill="#B83E18" text-anchor="middle">Сертифікат TESOL/TEFL</text>
+  <text x="50%" y="300" font-family="Inter, sans-serif" font-size="20" fill="#62655F" text-anchor="middle">Ольга Воропай</text>
+  <text x="50%" y="360" font-family="Inter, sans-serif" font-size="16" fill="#62655F" text-anchor="middle">(placeholder до етапу 5)</text>
+</svg>

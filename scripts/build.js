@@ -13,10 +13,7 @@ function copyRecursiveSync(src, dest) {
       fs.mkdirSync(dest, { recursive: true });
     }
     fs.readdirSync(src).forEach((childItemName) => {
-      copyRecursiveSync(
-        path.join(src, childItemName),
-        path.join(dest, childItemName)
-      );
+      copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
     });
   } else if (exists) {
     fs.copyFileSync(src, dest);

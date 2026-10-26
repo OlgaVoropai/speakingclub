@@ -2,10 +2,14 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: Manrope, system-ui, sans-serif;
+  font-family: var(--font-heading);
   font-weight: 800;
   font-size: 1.25rem;
   color: var(--color-text-main);
+}
+
+.logo__icon {
+  flex-shrink: 0;
 }
 
 .btn {
@@ -20,6 +24,9 @@
     transform 0.1s ease;
   cursor: pointer;
   border: none;
+  text-align: center;
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .btn--primary {
@@ -27,8 +34,10 @@
   color: #fff;
 }
 
-.btn--primary:hover {
-  background-color: #993312;
+@media (hover: hover) {
+  .btn--primary:hover {
+    background-color: #993312;
+  }
 }
 
 .btn--outline {
@@ -37,8 +46,10 @@
   color: var(--color-primary-dark);
 }
 
-.btn--outline:hover {
-  background-color: var(--color-surface-soft);
+@media (hover: hover) {
+  .btn--outline:hover {
+    background-color: var(--color-surface-soft);
+  }
 }
 
 .btn--sm {
@@ -49,6 +60,52 @@
 .btn--lg {
   padding: 1rem 2rem;
   font-size: 1.125rem;
+}
+
+.principle-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 2%);
+}
+
+.principle-card__num {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.principle-card__title {
+  font-size: 1rem;
+  color: var(--color-text-main);
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-main);
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+@media (hover: hover) {
+  .social-icon:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+    border-color: var(--color-primary);
+  }
 }
 
 .cookie-banner {
@@ -74,22 +131,14 @@
   flex-wrap: wrap;
 }
 
-.social-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--color-surface);
-  border: 1px solid var(--color-border);
+.cookie-banner__text {
+  font-size: 0.9375rem;
   color: var(--color-text-main);
-  transition:
-    background-color 0.2s,
-    color 0.2s;
+  max-width: 800px;
 }
 
-.social-icon:hover {
-  background-color: var(--color-primary);
-  color: #fff;
+.cookie-banner__buttons {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
 }

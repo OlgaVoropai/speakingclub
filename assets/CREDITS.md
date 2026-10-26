@@ -4,3 +4,4 @@
 - **Photo (Olga Voropay):** Provided by the owner (`assets/img/olga.jpg`).
 - **Certificate (TESOL/TEFL):** Provided by the owner (`assets/img/certificate.jpg`).
 - **Icons:** Inline SVG icons.
+- **Fonts:** Inter and Manrope (Google Fonts / SIL Open Font License).

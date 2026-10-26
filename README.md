@@ -1,4 +1,4 @@
-# Speaking Club online
+!# Speaking Club online
 
 Статичний лендінг для online speaking club (група 6-8 учасників, Zoom, рівень B1+).
 Повне ТЗ: `docs/TZ.md`.

@@ -1,46 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Політика конфіденційності — Speaking Club online</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/components.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container header__container">
-      <a href="index.html" class="logo" aria-label="На головну">
-        <img src="assets/logo.svg" alt="" width="32" height="32" class="logo__icon">
-        <span class="logo__text">Speaking Club online</span>
-      </a>
-      <a href="index.html" class="btn btn--outline btn--sm">На головну</a>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Політика конфіденційності — Speaking Club online</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/fonts/inter-400-cyrillic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/manrope-700-cyrillic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="logo" aria-label="На головну">
+          <img src="assets/logo.svg" alt="" width="32" height="32" class="logo__icon" />
+          <span class="logo__text">Speaking Club online</span>
+        </a>
+        <a href="index.html" class="btn btn--outline btn--sm">На головну</a>
+      </div>
+    </header>
 
-  <main class="container" style="padding: 4rem 1.5rem; max-width: 800px;">
-    <h1>Політика конфіденційності</h1>
-    <p>Ця політика конфіденційності описує, як ми обробляємо інформацію під час відвідування сайту Speaking Club online.</p>
-    
-    <h2>1. Збір та використання даних</h2>
-    <p>Наш сайт є повністю статичним і не збирає персональні дані через форми. Запис на заняття та зв'язок з викладачем відбуваються через месенджер Telegram (<a href="https://t.me/Olga_Boxy" target="_blank" rel="noopener">@Olga_Boxy</a>).</p>
+    <main class="container page">
+      <h1 class="page__title">Політика конфіденційності</h1>
+      <p class="page__lead">
+        Ця політика конфіденційності описує, як ми обробляємо інформацію під час відвідування сайту
+        Speaking Club online.
+      </p>
 
-    <h2>2. Аналітика (Google Analytics 4)</h2>
-    <p>Ми використовуємо Google Analytics 4 для аналізу відвідуваності сайту. Збір даних починається лише після того, як ти надаєш згоду через банер cookie («Прийняти»).</p>
+      <section class="page__section">
+        <h2>1. Збір та використання даних</h2>
+        <p>
+          Наш сайт є повністю статичним і не збирає персональні дані через форми. Запис на заняття
+          та зв'язок з викладачем відбуваються через месенджер Telegram (<a
+            href="https://t.me/Olga_Boxy"
+            target="_blank"
+            rel="noopener"
+            >@Olga_Boxy</a
+          >).
+        </p>
+      </section>
 
-    <h2>3. Зв'язок</h2>
-    <p>Якщо у тебе є запитання щодо цієї політики конфіденційності, ти можеш звернутися через Telegram: <a href="https://t.me/Olga_Boxy" target="_blank" rel="noopener">@Olga_Boxy</a>.</p>
-  </main>
+      <section class="page__section">
+        <h2>2. Аналітика (Google Analytics 4)</h2>
+        <p>
+          Ми використовуємо Google Analytics 4 для аналізу відвідуваності сайту. Збір даних
+          починається лише після того, як ти надаєш згоду через банер cookie («Прийняти»).
+        </p>
+      </section>
 
-  <footer class="footer">
-    <div class="container footer__container">
-      <p class="footer__copy">&copy; 2026 Speaking Club online</p>
-    </div>
-  </footer>
-</body>
+      <section class="page__section">
+        <h2>3. Зв'язок</h2>
+        <p>
+          Якщо у тебе є запитання щодо цієї політики конфіденційності, ти можеш звернутися через
+          Telegram: <a href="https://t.me/Olga_Boxy" target="_blank" rel="noopener">@Olga_Boxy</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <p class="footer__copy">&copy; 2026 Speaking Club online</p>
+      </div>
+    </footer>
+  </body>
 </html>
