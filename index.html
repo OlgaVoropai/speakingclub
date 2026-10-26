@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speaking Club online: розмовна англійська B1+ в міні-групах</title>
+  <meta
+    name="description"
+    content="Online speaking club з Ольгою Воропай: групи 6-8 осіб, 90 хвилин у Zoom, рівень B1+. Безкоштовне тестування рівня. Запишись на заняття!"
+  >
+  <link rel="canonical" href="https://OlgaVoropai.github.io/speakingclub/">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://OlgaVoropai.github.io/speakingclub/">
+  <meta
+    property="og:title"
+    content="Speaking Club online: розмовна англійська B1+ в міні-групах"
+  >
+  <meta
+    property="og:description"
+    content="Online speaking club з Ольгою Воропай: групи 6-8 осіб, 90 хвилин у Zoom, рівень B1+. Безкоштовне тестування рівня. Запишись на заняття!"
+  >
+  <!-- TODO: оновити og:image після появи реального зображення 1200x630 -->
+  <meta
+    property="og:image"
+    content="https://OlgaVoropai.github.io/speakingclub/assets/img/olga.jpg"
+  >
+  <meta property="og:locale" content="uk_UA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta
+    name="twitter:title"
+    content="Speaking Club online: розмовна англійська B1+ в міні-групах"
+  >
+  <meta
+    name="twitter:description"
+    content="Online speaking club з Ольгою Воропай: групи 6-8 осіб, 90 хвилин у Zoom, рівень B1+. Безкоштовне тестування рівня. Запишись на заняття!"
+  >
+  <meta
+    name="twitter:image"
+    content="https://OlgaVoropai.github.io/speakingclub/assets/img/olga.jpg"
+  >
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Speaking Club online",
+    "url": "https://OlgaVoropai.github.io/speakingclub/",
+    "logo": "https://OlgaVoropai.github.io/speakingclub/assets/logo.svg",
+    "sameAs": [
+      "https://t.me/Olga_Boxy",
+      "https://www.instagram.com/olgateacher_english/",
+      "https://www.youtube.com/@olgavoropay9503/featured",
+      "https://www.facebook.com/olga.boxy",
+      "https://www.linkedin.com/in/olga-voropai-5a87a3241"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Speaking Club online (B1+)",
+    "description": "Розмовний клуб англійської мови для дорослих рівня B1 і вище. Групи 6-8 учасників, 90 хвилин у Zoom.",
+    "provider": {
+      "@type": "Person",
+      "name": "Ольга Воропай"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": "300",
+        "priceCurrency": "UAH",
+        "description": "Разове відвідування: 1 зустріч на 90 хвилин"
+      },
+      {
+        "@type": "Offer",
+        "price": "1200",
+        "priceCurrency": "UAH",
+        "description": "Пакет із чотирьох зустрічей по 90 хвилин"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Cookie Banner -->
+  <div
+    id="cookie-banner"
+    class="cookie-banner"
+    role="region"
+    aria-label="Банер згоди на використання cookie"
+    hidden
+  >
+    <div class="cookie-banner__container">
+      <p class="cookie-banner__text">
+        Ми використовуємо файли cookie для аналітики (Google Analytics 4). Ти можеш прийняти або відхилити їх використання.
+      </p>
+      <div class="cookie-banner__buttons">
+        <button id="cookie-accept" class="btn btn--primary btn--sm">Прийняти</button>
+        <button id="cookie-reject" class="btn btn--outline btn--sm">Відхилити</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 15.1 Шапка (липке меню) -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <a href="#" class="logo" aria-label="Speaking Club online - на головну">
+        <img src="assets/logo.svg" alt="" width="32" height="32" class="logo__icon">
+        <span class="logo__text">Speaking Club online</span>
+      </a>
+      <div class="header__actions">
+        <a
+          href="https://t.me/Olga_Boxy"
+          target="_blank"
+          rel="noopener"
+          class="btn btn--primary cta-btn"
+          data-location="header"
+        >Приєднатися зараз</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 15.2 Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Speaking Club, на якому ти вчишся говорити англійською вільно і впевнено!
+          </h1>
+          <p class="hero__lead">
+            Ти багато розумієш англійською, але коли треба відповісти, довго підбираєш слова або обмежуєшся «Yes»?
+          </p>
+          <p class="hero__desc">
+            У клубі тренуємося швидше формулювати власні думки і підтримувати діалог. Використовуємо слова й конструкції, які ти вже знаєш, у живій розмові.
+          </p>
+          <p class="hero__subtitle">Атмосфера, у якій нема страху говорити.</p>
+
+          <div class="hero__principles">
+            <h2 class="sr-only">Три головні принципи клубу</h2>
+            <div class="principle-card">
+              <span class="principle-card__num">01</span>
+              <h3 class="principle-card__title">Доброзичливість</h3>
+            </div>
+            <div class="principle-card">
+              <span class="principle-card__num">02</span>
+              <h3 class="principle-card__title">Повага</h3>
+            </div>
+            <div class="principle-card">
+              <span class="principle-card__num">03</span>
+              <h3 class="principle-card__title">Можливість висловитися для кожного</h3>
+            </div>
+          </div>
+
+          <div class="hero__cta-wrapper">
+            <a
+              href="https://t.me/Olga_Boxy"
+              target="_blank"
+              rel="noopener"
+              class="btn btn--primary btn--lg cta-btn"
+              data-location="hero"
+            >Приєднатися зараз</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15.3 Про викладача -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section__title">Про викладача</h2>
+        
+        <div class="about__grid">
+          <div class="about__media">
+            <!-- TODO: додати реальне фото викладачки (assets/img/olga.jpg) -->
+            <img
+              src="assets/img/olga.jpg"
+              alt="Ольга Воропай — викладач англійської мови"
+              width="400"
+              height="400"
+              loading="lazy"
+              class="about__photo"
+            >
+            <div class="certificate-card">
+              <!-- TODO: додати реальне фото сертифіката (assets/img/certificate.jpg) -->
+              <img
+                src="assets/img/certificate.jpg"
+                alt="Сертифікат TESOL/TEFL Ольги Воропай"
+                width="300"
+                height="200"
+                loading="lazy"
+                class="certificate-card__img"
+              >
+              <span class="certificate-card__label">Сертифікат TESOL/TEFL</span>
+            </div>
+          </div>
+
+          <div class="about__content">
+            <p class="about__name">Ольга Воропай</p>
+            <ul class="about__list">
+              <li>Я викладаю англійську вже понад 10 років.</li>
+              <li>Мій рівень підтверджено сертифікатом TESOL/TEFL.</li>
+              <li>Люблю працювати з дорослими, тому що кожен має свій власний досвід, навички та погляди. Цим цікаво ділитися й обговорювати.</li>
+              <li>На зустрічах я готую тему та матеріали, даю короткі інструкції й організовую обговорення.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="benefits">
+          <h3 class="benefits__title">Чому варто приєднатися й обрати розмовний клуб зі мною:</h3>
+          <ol class="benefits__list">
+            <li>Дружня і підтримуюча атмосфера</li>
+            <li>Актуальні теми для дорослих зайнятих людей</li>
+            <li>Приділяю увагу кожному, допомагаю сформулювати думку</li>
+            <li>Даємо кожному можливість висловитися, не мовчати, а спілкуватися з однодумцями</li>
+            <li>Щоб звикати до різних співрозмовників, як у реальному житті</li>
+            <li>Щоб швидше виражати свої думки і впевненіше говорити</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15.4 Про що говоримо -->
+    <section class="section topics" id="topics">
+      <div class="container">
+        <h2 class="section__title">Про що говоримо</h2>
+        <p class="topics__intro">
+          Обираємо теми, релевантні й цікаві учасникам. Розширюємо наш світогляд, дізнаємось щось нове.
+        </p>
+        
+        <ul class="topics__tags" aria-label="Теми занять">
+          <li><span class="tag">робота</span></li>
+          <li><span class="tag">відносини з колегами</span></li>
+          <li><span class="tag">подорожі</span></li>
+          <li><span class="tag">звички</span></li>
+          <li><span class="tag">їжа</span></li>
+          <li><span class="tag">work-life balance</span></li>
+        </ul>
+
+        <div class="difficulties">
+          <h3 class="difficulties__title">Які труднощі допомагає вирішувати клуб</h3>
+          <div class="difficulties__grid">
+            <div class="quote-card">
+              <p>«Розумію питання, але не можу швидко придумати, що сказати».</p>
+            </div>
+            <div class="quote-card">
+              <p>«Боюся помилитися й виглядати смішно».</p>
+            </div>
+            <div class="quote-card">
+              <p>«Знаю слова, але в розмові не можу їх згадати».</p>
+            </div>
+            <div class="quote-card">
+              <p>«Мені нема з ким говорити англійською, і тому відчуваю, що все забуваю».</p>
+            </div>
+            <div class="quote-card">
+              <p>«На роботі хочеться сказати більше, ніж Yes або No».</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15.5 Кому підходить клуб -->
+    <section class="section audience" id="audience">
+      <div class="container">
+        <h2 class="section__title">Кому підходить клуб</h2>
+        <p class="audience__lead">
+          Клуб підійде, якщо ти маєш рівень B1, можеш висловити просту думку англійською й хочеш більше живої практики, тобі знайомі базові граматичні конструкції та маєш достатній запас слів.
+        </p>
+        
+        <div class="audience__grid">
+          <div class="audience__col audience__col--not">
+            <h3>Цей клуб тобі не підійде:</h3>
+            <ul>
+              <li>Якщо починаєш із нуля або маєш рівень A1–A2.</li>
+              <li>Якщо потрібні базові знання з граматики, розвиток усіх мовних навичок і домашні завдання.</li>
+              <li>Якщо готуєшся до конкретної співбесіди, конференції або виступу.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="doubts">
+          <h3 class="doubts__title">Ти можеш думати:</h3>
+          <div class="doubts__list">
+            <details class="doubt-item">
+              <summary class="doubt-item__q"><strong>«Мені спочатку треба ще підтягнути англійську».</strong></summary>
+              <div class="doubt-item__answer">
+                <p>Якщо база B1 вже є, можна практикуватися з тим, що знаєш зараз. Якщо сумніваєшся в рівні, я тебе протестую перед першою зустріччю.</p>
+              </div>
+            </details>
+            <details class="doubt-item">
+              <summary class="doubt-item__q"><strong>«Я буду мовчати. Мені соромно».</strong></summary>
+              <div class="doubt-item__answer">
+                <p>Я збираю групу людей з однаковим рівнем знань, тому взаємопідтримка і дружня атмосфера допоможуть комфортно почати спілкування.</p>
+              </div>
+            </details>
+            <details class="doubt-item">
+              <summary class="doubt-item__q"><strong>«У мене немає часу».</strong></summary>
+              <div class="doubt-item__answer">
+                <p>90 хвилин раз на тиждень це мінімум, завдяки якому ти покращиш свій Speaking, коли англійська знадобиться для роботи, подорожі чи переїзду.</p>
+              </div>
+            </details>
+            <details class="doubt-item">
+              <summary class="doubt-item__q"><strong>«Я можу займатися самостійно».</strong></summary>
+              <div class="doubt-item__answer">
+                <p>Так, читання, відео й граматичні вправи безумовно дають користь. Але клуб дає можливість прокачати саме твої розмовні навички, живий діалог з різними людьми.</p>
+              </div>
+            </details>
+            <details class="doubt-item">
+              <summary class="doubt-item__q"><strong>«А раптом мені не підійде?»</strong></summary>
+              <div class="doubt-item__answer">
+                <p>Почни з однієї зустрічі. Познайомишся з атмосферою й зрозумієш, чи комфортно тобі в групі.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15.6 Вартість участі -->
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <h2 class="section__title">Вартість участі</h2>
+        
+        <div class="pricing__grid">
+          <div class="price-card">
+            <h3 class="price-card__title">Разове відвідування</h3>
+            <div class="price-card__price">300 грн</div>
+            <p class="price-card__desc">
+              Одна зустріч на 90 хвилин. Підійде, щоб познайомитися з форматом або приєднуватися тоді, коли маєш можливість.
+            </p>
+            <a
+              href="https://t.me/Olga_Boxy"
+              target="_blank"
+              rel="noopener"
+              class="btn btn--outline cta-btn"
+              data-location="pricing"
+            >Приєднатися зараз</a>
+          </div>
+
+          <div class="price-card price-card--featured">
+            <h3 class="price-card__title">Пакет із чотирьох зустрічей</h3>
+            <div class="price-card__price">1200 грн</div>
+            <p class="price-card__desc">
+              Чотири зустрічі по 90 хвилин. Для тих, хто планує практикуватися щотижня.
+            </p>
+            <a
+              href="https://t.me/Olga_Boxy"
+              target="_blank"
+              rel="noopener"
+              class="btn btn--primary cta-btn"
+              data-location="pricing"
+            >Приєднатися зараз</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15.7 Відгуки -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <h2 class="section__title">Відгуки учасників</h2>
+        <div class="reviews__grid" id="reviews-container">
+          <!-- Rendered via JS from data/reviews.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 15.8 FAQ (акордеон) -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <h2 class="section__title">Часті запитання</h2>
+        
+        <div class="faq__accordion">
+          <details class="faq-item" data-faq-index="1">
+            <summary class="faq-item__question">Як правильно визначити свій рівень англійської перед участю?</summary>
+            <div class="faq-item__answer">
+              <p>Не хвилюйся! Напиши Ользі в директ: вона проведе коротку дружню бесіду на 5-10 хвилин перед першою зустріччю, щоб підтвердити, що тобі буде комфортно в групі.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="2">
+            <summary class="faq-item__question">Де проходять зустрічі?</summary>
+            <div class="faq-item__answer">
+              <p>Зустрічі проходять онлайн у Zoom. Тривалість кожної зустрічі 90 хвилин у теплій атмосфері з камерами.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="3">
+            <summary class="faq-item__question">Як саме визначається час і день зустрічі?</summary>
+            <div class="faq-item__answer">
+              <p>Після того як ти напишеш «КЛУБ» у Телеграм, Ольга додасть тебе в закритий канал, де методом спільного голосування обирається найзручніший слот для всіх учасників.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="4">
+            <summary class="faq-item__question">Чи можу я спробувати лише одну зустріч?</summary>
+            <div class="faq-item__answer">
+              <p>Звісно! Для цього передбачено разове відвідування за 300 грн. Ти познайомишся з групою та форматом, а далі вирішиш щодо щотижневої участі.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="5">
+            <summary class="faq-item__question">Що робити, якщо я боятимуся говорити або запнуся під час зустрічі?</summary>
+            <div class="faq-item__answer">
+              <p>Напиши Ользі в Telegram («КЛУБ»). Вона поставить кілька легких запитань та допоможе обрати ідеальну за темпом та рівнем групу, де тобі буде комфортно.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="6">
+            <summary class="faq-item__question">Що відбувається, якщо я пропущу заняття через роботу чи справи?</summary>
+            <div class="faq-item__answer">
+              <p>Ми розуміємо насичений графік дорослих. Якщо ти попередиш викладача щонайменше за 12 годин до початку, твоє заняття не згорає: можна відпрацювати його в іншій групі того самого рівня протягом дії абонемента.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="7">
+            <summary class="faq-item__question">Чи потрібно щось читати або готувати до зустрічі заздалегідь?</summary>
+            <div class="faq-item__answer">
+              <p>До розмовного клубу не треба ніякої підготовки, усі матеріали готую я. Працюємо з ними під час зустрічі. Тобі не потрібно заздалегідь читати тексти, дивитися відео, готувати виступ або вчити список слів, домашнього завдання немає. Головне приходити й практикуватися!</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="8">
+            <summary class="faq-item__question">Скільки людей у групі і чи вистачить мені часу поговорити?</summary>
+            <div class="faq-item__answer">
+              <p>Зустрічаємося раз на тиждень на 90 хвилин у групах від 6-8 (максимум 10) учасників. Спілкуємося в парах і невеликих групах у сесійних залах Zoom, так у кожного є можливість висловитися, поставити запитання й відповісти на питання співрозмовника. 90 хвилин, щоб мати достатньо часу висловити свою думку і послухати інших.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" data-faq-index="9">
+            <summary class="faq-item__question">Як проходить оплата занять та чи є безпечні способи розрахунку?</summary>
+            <div class="faq-item__answer">
+              <p>Оплата здійснюється офіційно на розрахунковий рахунок ФОП (IBAN або карткою онлайн). Ти отримуєш чек та підтвердження. Доступні разове відвідування (300 грн) та пакет із чотирьох зустрічей (1200 грн).</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15.9 Як приєднатися (фінальний блок) -->
+    <section class="section join" id="join">
+      <div class="container join__container">
+        <h2 class="section__title">Як приєднатися</h2>
+        <ul class="join__steps">
+          <li>Пиши мені в директ <strong>«КЛУБ»</strong>.</li>
+          <li>Додам тебе в Телеграм-канал, де методом голосування оберемо час і дату зустрічі, яка всіх влаштовує.</li>
+        </ul>
+        <div class="join__cta">
+          <a
+            href="https://t.me/Olga_Boxy"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--primary btn--lg cta-btn"
+            data-location="final"
+          >Приєднатися зараз</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 15.10 Футер -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#" class="logo" aria-label="Speaking Club online">
+          <img src="assets/logo.svg" alt="" width="24" height="24" class="logo__icon">
+          <span class="logo__text">Speaking Club online</span>
+        </a>
+        <a href="https://t.me/Olga_Boxy" target="_blank" rel="noopener" class="footer__telegram">Telegram: @Olga_Boxy</a>
+      </div>
+
+      <nav class="footer__socials" aria-label="Соціальні мережі">
+        <!-- Telegram -->
+        <a
+          href="https://t.me/Olga_Boxy"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Telegram"
+          class="social-icon"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.44.53-.47-.01-1.38-.27-2.06-.49-.83-.27-1.49-.42-1.43-.89.03-.25.38-.51 1.05-.78 4.11-1.79 6.85-2.97 8.22-3.54 3.91-1.63 4.72-1.92 5.25-1.93.12 0 .39.03.56.17.14.12.18.28.2.45-.02.07-.02.13-.04.23z"/></svg>
+        </a>
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/olgateacher_english/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          class="social-icon"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <!-- YouTube -->
+        <a
+          href="https://www.youtube.com/@olgavoropay9503/featured"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YouTube"
+          class="social-icon"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <!-- Facebook -->
+        <a
+          href="https://www.facebook.com/olga.boxy"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          class="social-icon"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+        </a>
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/olga-voropai-5a87a3241"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          class="social-icon"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <!-- Viber -->
+        <a
+          href="viber://chat?number=%2B380964184346"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Viber"
+          class="social-icon"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.627 0-12 5.373-12 12 0 2.122.553 4.112 1.521 5.852l-1.521 5.568 5.711-1.487c1.688.941 3.65 1.474 5.729 1.474 6.627 0 12-5.373 12-12s-5.373-12-12-12zm6.216 15.655c-.249.702-1.455 1.303-2.007 1.381-.527.075-1.196.111-1.936-.127-1.378-.444-3.08-1.536-4.664-3.12-1.584-1.584-2.676-3.286-3.12-4.664-.238-.74-.202-1.409-.127-1.936.078-.552.679-1.758 1.381-2.007.253-.09.578-.035.792.179l1.109 1.109c.216.216.273.538.161.815l-.442 1.077c-.114.278-.023.597.214.834 1.002 1.002 2.052 1.776 3.092 2.816 1.04 1.04 1.814 2.09 2.816 3.092.237.237.556.328.834.214l1.077-.442c.277-.112.599-.055.815.161l1.109 1.109c.214.214.269.539.179.792z"/></svg>
+        </a>
+        <!-- WhatsApp -->
+        <a
+          href="https://wa.me/380964184346"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+          class="social-icon"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.124-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+      </nav>
+
+      <div class="footer__meta">
+        <a href="privacy.html">Політика конфіденційності</a>
+        <p class="footer__fop">ФОП: TODO</p>
+        <p class="footer__copy">&copy; 2026 Speaking Club online</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

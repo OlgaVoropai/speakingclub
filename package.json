@@ -1,0 +1,22 @@
+{
+  "name": "speakingclub",
+  "version": "1.0.0",
+  "description": "Speaking Club online landing page",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"css/**/*.css\"",
+    "lint": "npm run lint:js && npm run lint:css",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "eslint": "^8.57.0",
+    "html-minifier-terser": "^7.2.0",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

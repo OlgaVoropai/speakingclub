@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://OlgaVoropai.github.io/speakingclub/sitemap.xml
