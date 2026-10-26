@@ -142,3 +142,107 @@
   gap: 0.75rem;
   align-items: center;
 }
+
+/* Accordion & Details */
+.faq-item,
+.doubt-item {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 2%);
+}
+
+.faq-item__question,
+.doubt-item__q {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+  min-height: 44px;
+}
+
+.faq-item__question::-webkit-details-marker,
+.doubt-item__q::-webkit-details-marker,
+.review-card__toggle::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item__question::after,
+.doubt-item__q::after,
+.review-card__toggle::after {
+  content: '+';
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-primary);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] .faq-item__question::after,
+.doubt-item[open] .doubt-item__q::after,
+.review-card__details[open] .review-card__toggle::after {
+  content: '−';
+}
+
+.faq-item__answer,
+.doubt-item__answer {
+  padding: 0 1.5rem 1.25rem;
+  color: var(--color-text-muted);
+}
+
+.faq__accordion,
+.doubts__list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Review Card Components */
+.review-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 3%);
+}
+
+.review-card__name {
+  font-size: 1.125rem;
+  color: var(--color-text-main);
+}
+
+.review-card__text {
+  color: var(--color-text-muted);
+  white-space: pre-line;
+}
+
+.review-card__toggle {
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  list-style: none;
+}
+
+.review-card__full {
+  margin-top: 0.75rem;
+  color: var(--color-text-muted);
+  white-space: pre-line;
+}

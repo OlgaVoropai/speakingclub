@@ -519,3 +519,43 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+body.nav-open {
+  overflow: hidden;
+}
+
+.header__cta-full {
+  display: none;
+}
+
+.header__cta-short {
+  display: inline;
+}
+
+@media (width >= 1024px) {
+  .header__cta-full {
+    display: inline;
+  }
+
+  .header__cta-short {
+    display: none;
+  }
+
+  .nav__list {
+    gap: 1.25rem;
+  }
+
+  .nav__link {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .nav__list {
+    gap: 1.75rem;
+  }
+
+  .nav__link {
+    font-size: 1rem;
+  }
+}
